@@ -2,102 +2,149 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="resetcss.css" />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Front End Foxes</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tiff is Awesome</title>
   </head>
   <body>
-    <header>
+    <header class="neutral-theme">
       <h1>
-        Hello! My name is <span>Tiffany Fried</span>.<br />I'm a Web Developer
+        Hello! My name is
+        <span class="header-highlight">Tiffany Fried</span>.<br />I'm a Designer
+        + Web Developer
       </h1>
-      <a href="#" class="button">Find out more</a>
+      <a href="#" class="button header-link">Find out more</a>
     </header>
     <main>
-      <section class="about">
+      <section class="about primary-theme">
         <h2>About Me</h2>
-        <div class"about-container">
-          <img class="about-img" src="/portfolio/images/jejeijfioej.jpg" alt="write text here" />
-          <div class="about-text>"
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          </p>
-          <a href="#" class="button">My Resume</a>
+        <div class="about-container">
+          <img
+            class="about-img"
+            src="images/jejeijfioej.jpg"
+            alt="insert alt text"
+          />
+          <div class="about-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam
+              tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis.
+              Cras sagittis sodales iaculis. Mauris faucibus massa a luctus
+              malesuada. Suspendisse potenti. Integer rutrum quam vitae
+              sollicitudin fringilla. Sed suscipit fermentum sem ut semper. Cras
+              aliquet, velit eget ultricies tempus, enim sapien laoreet ligula,
+              ac mattis ante sapien sit amet purus.
+            </p>
+
+            <a href="#" class="button">My Resume</a>
           </div>
         </div>
         <blockquote>
-          “instert quote about me here”
-          <cite>- name of quoted</cite>
+          “insert quote here”
+          <cite>- quoted</cite>
         </blockquote>
       </section>
-      <section>
+      <section class="neutral-theme">
         <h2>Projects</h2>
         <article>
-          <h3>Project Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam
-            tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis.
-            Cras sagittis sodales iaculis.
-          </p>
-          <a href="#">See it live</a>
-          <a href="#">Fork it on Github</a>
-          <img src="/images/project.jpg" alt="placeholder alt text" />
+          <div class="article-text">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam
+              tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis.
+              Cras sagittis sodales iaculis.
+            </p>
+            <a href="#" class="button">See it live</a>
+            <a href="#" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="/images/project.jpg"
+            class="article-img"
+            alt="placeholder alt text"
+          />
         </article>
         <article>
-          <h3>Project Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam
-            tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis.
-            Cras sagittis sodales iaculis.
-          </p>
-          <a href="#">See it live</a>
-          <a href="#">Fork it on Github</a>
-          <img src="/images/project.jpg" alt="placeholder alt text" />
+          <div class="article-text">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam
+              tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis.
+              Cras sagittis sodales iaculis.
+            </p>
+            <a href="#" class="button">See it live</a>
+            <a href="#" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="/images/project.jpg"
+            class="article-img"
+            alt="placeholder alt text"
+          />
         </article>
         <article>
-          <h3>Project Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam
-            tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis.
-            Cras sagittis sodales iaculis.
-          </p>
-          <a href="#">See it live</a>
-          <a href="#">Fork it on Github</a>
-          <img src="/images/project.jpg" alt="placeholder alt text" />
+          <div class="article-text">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam
+              tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis.
+              Cras sagittis sodales iaculis.
+            </p>
+            <a href="#" class="button">See it live</a>
+            <a href="#" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="/images/project.jpg"
+            class="article-img"
+            alt="placeholder alt text"
+          />
         </article>
+
+        <section class="neutral-theme">
+          <h2>Design Work</h2>
+          <img src="/images/portfolio3.png" class="center" />
+          <img src="/images/kiramoon.png" class="center" />
+        </section>
       </section>
-      <section>
+
+      <section class="contact primary-theme">
         <h2>Contact</h2>
         <p>If you'd like to work with me, you can drop me a message!</p>
-        <a href="mailto:email@example.com">Let's Talk</a>
+        <a href="mailto:email@example.com" class="button">Let's Talk</a>
       </section>
     </main>
     <footer>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/tiffany-fried-2ba064197/"
+      <ul class="social">
+        <li class="social-item">
+          <a
+            class="social-link linkedin"
+            href="https://www.linkedin.com/in/tiffany-fried-2ba064197/"
             >LinkedIn</a
           >
         </li>
-        <li>
-          <a href="https://twitter.com/techtifff">Twitter</a>
+        <li class="social-item">
+          <a class="social-link twitter" href="https://twitter.com/techtifff"
+            >Twitter</a
+          >
         </li>
-        <li>
-          <a href="instert link ">GitHub</a>
+        <li class="social-item">
+          <a class="social-link github" href="https://github.com/tiffanyfrieda"
+            >GitHub</a
+          >
         </li>
-        <li>
-          <a href="#">YouTube</a>
+        <li class="social-item">
+          <a class="social-link youtube" href="#">YouTube</a>
         </li>
       </ul>
-      <p>&copy; 2021 - Portfolio design by Tiffany Fried</p>
+      <p>&copy; 2021 - Tiffany Fried</p>
     </footer>
   </body>
 </html>
