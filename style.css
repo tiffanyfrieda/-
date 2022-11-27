@@ -180,7 +180,7 @@ article {
   margin-top: 10px;
 }
 
-.contact::after {
+.footer::after {
   content: "";
   position: absolute;
   bottom: -100px;
