@@ -164,6 +164,17 @@ article {
   margin-bottom: var(--spacing);
 }
 
+.article::before {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid var(--primary);
+  border-right: 100vw solid transparent;
+}
+
 
 .center {
   display: block;
