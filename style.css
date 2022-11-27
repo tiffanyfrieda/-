@@ -236,6 +236,7 @@ footer {
 
   .about-text {
     margin-left: var(--spacing);
+    color: #555555;
   }
 
   article {
