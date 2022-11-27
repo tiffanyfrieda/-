@@ -65,19 +65,9 @@ p {
   line-height: 1.4em;
 }
 
-blockquote {
-  margin-top: var(--spacing);
-  font-size: 2rem;
-  font-style: italic;
-  text-align: center;
-}
 
-cite {
-  display: block;
-  margin-top: 1rem;
-  font-style: normal;
-  font-size: 1rem;
-}
+
+
 
 .neutral-theme {
   background-color: black;
@@ -135,7 +125,7 @@ cite {
 
 .about {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .about::after {
