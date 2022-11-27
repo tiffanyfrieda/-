@@ -69,7 +69,7 @@ cite {
 }
 
 .neutral-theme {
-  background-color: white;
+  background-color: black;
   --button-color: var(--primary);
   --button-hover-color: white;
 }
