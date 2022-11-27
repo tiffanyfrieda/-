@@ -156,10 +156,6 @@ cite {
   filter: grayscale(0);
 }
 
-.article-img:hover {
-  filter: grayscale(0);
-}
-
 article {
   display: flex;
   flex-direction: column-reverse;
@@ -169,6 +165,10 @@ article {
 .article-img {
   margin-bottom: 2rem;
  filter: grayscale(100%);
+}
+
+.article-img:hover {
+  filter: grayscale(0);
 }
 
 .center {
