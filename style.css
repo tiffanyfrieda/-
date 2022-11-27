@@ -95,6 +95,7 @@ p {
   text-decoration: none;
   color: var(--button-color);
   transition: all 0.3s ease-in-out;
+  align: center;
 }
 
 .button:hover {
