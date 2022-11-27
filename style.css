@@ -127,10 +127,6 @@ p {
   border-color: white transparent transparent transparent;
 }
 
-.cont {
-  align-items: center;
-}
-
 .about {
   position: relative;
   margin-bottom: 0px;
@@ -187,7 +183,7 @@ article {
 footer {
   padding: var(--spacing);
   text-align: center;
-  background-color: #333;
+  background-color: #22EAAA;
   color: white;
 }
 
