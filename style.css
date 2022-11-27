@@ -156,20 +156,13 @@ cite {
   filter: grayscale(0);
 }
 
+
 article {
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: var(--spacing);
 }
 
-.article-img {
-  margin-bottom: 2rem;
- filter: grayscale(100%);
-}
-
-.article-img:hover {
-  filter: grayscale(0);
-}
 
 .center {
   display: block;
@@ -250,5 +243,11 @@ footer {
   .article-img {
     max-width: 350px;
     margin-left: 2rem;
+    filter: grayscale(100%);
   }
+  
+  .article-img:hover {
+  filter: grayscale(0);
+}
+  
 }
