@@ -127,6 +127,10 @@ p {
   border-color: white transparent transparent transparent;
 }
 
+.cont {
+  align-items: center;
+}
+
 .about {
   position: relative;
   margin-bottom: 0px;
