@@ -125,7 +125,7 @@ p {
 
 .about {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .about::after {
