@@ -180,6 +180,17 @@ article {
   margin-top: 10px;
 }
 
+.contact::after {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid var(--primary);
+  border-right: 100vw solid transparent;
+}
+
 footer {
   padding: var(--spacing);
   text-align: center;
